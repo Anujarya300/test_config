@@ -1,0 +1,24 @@
+{
+  "brexMongoDbConnStr": "mongodb://localhost:27017/brex?poolSize=200&numberOfRetries=3",
+  "brexMongoDbName": "brex",   
+  "sobreDbMongoConnStr": "mongodb://localhost:27017/sobre?poolSize=200&numberOfRetries=3",
+  "sobreMongoDbName": "sobre",
+  "ipc": {
+    "ipcId": "master",
+    "ipcRetry": 1500,
+    "ipcSilent": true
+  },
+  "brexExecutionServerPort": "9090",
+  "brexSobreApiPort": "9092",
+  "brexSobreApi": "http://localhost:9092",
+  "brexCompileserver": "http://localhost:9999",
+  "brexExecutionServer": "http://localhost:9090",
+  "redisserver": "172.19.101.120",
+  "sobreserver": "http://localhost:8099",
+  "masterIPC_fallback_time_ms": 1000,
+  "masterFilePath": "/Users/anujr/Documents/projects/softcell/brex/masterdata/",
+  "policyCachePath": "/Users/anujr/Documents/projects/softcell/brex/policydata/",
+  "masterSyncPollerMS": 7200000,
+  "policySyncPollerMS": 7200000,
+  "updateAllPoliciesPollerMS": 7200000
+}
