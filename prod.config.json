@@ -20,5 +20,6 @@
   "policyCachePath": "/Users/anujr/Documents/projects/softcell/brex/policydata/",
   "masterSyncPollerMS": 7200000,
   "policySyncPollerMS": 7200000,
-  "updateAllPoliciesPollerMS": 7200000
+  "updateAllPoliciesPollerMS": 7200000,
+  "env":"prod"
 }
