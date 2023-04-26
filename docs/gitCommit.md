@@ -3,7 +3,7 @@ Git commit
 
 ### Open git bash - git commit and push
     > git status
-    > git add "file name with relative path"
+    > git add "file name with relative path" // for multiple files > git add file-1 file-2 file-3 
     > git add "add more file name"
     > git commit -m "commit message"
     > git push
