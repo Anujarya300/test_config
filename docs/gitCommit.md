@@ -10,6 +10,9 @@ Git commit
     
 ### Create new branch
     > git branch <new-branch> <base-branch>
+    
+### Publish a new local branch
+    > git push -u origin localBranch:remoteBranchToBeCreated
 
 ### Helpful commands
 
